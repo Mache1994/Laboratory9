@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>This is the index </title>
+    <link href="./index.css" type="text/css" rel="stylesheet">
+  </head>
+  <body>
+<h3> Get list of Blogs</h3>
+    <form class="retrieveSports">
+      <button type="submit" class="getSports">
+        Click me to retrieve the list of Blogs
+      </button>
+    </form>
+
+    <br>
+<h3> Create new blog</h3>
+    <form class="createSport">
+      <label for="sportTitle"> Title: </label>
+      <input id="sportTitle" type="text">
+      <label for="sportId"> ID: </label>
+      <input id="sportId" type="text">
+      <label for="sportAuthor"> Author: </label>
+      <input id="sportAuthor" type="text">
+      <br>
+      <label for="sportContent"> Content: </label>
+      <input id="sportContent" type="text">
+      <label for="sportDate"> Publish Date: </label>
+      <input id="sportDate" type="text">
+    
+      <button type="submit" class="postSport">
+        Send
+      </button>
+    </form>
+<br>
+<h3> Delete a blog by iD</h3>
+    <form class="DeleteSport">
+      <label for="sportId"> ID: </label>
+      <input id="sportId2" type="number">
+      <button type="submit" class="DeleteSport">
+        Send
+      </button>
+    </form>
+<br>
+  <h3> Edit a blog by id</h3>
+    <form class="EditSport">
+
+      <label for="sportId"> ID of the blog to edit: </label>
+      <input id="sportId3" type="text">
+      <br><br>
+      <label for="sportTitle"> Title: </label>
+      <input id="sportTitle2" type="text">
+      <label for="sportAuthor"> Author: </label>
+      <input id="sportAuthor2" type="text">
+      
+      <label for="sportContent"> Content: </label>
+      <input id="sportContent2" type="text">
+      <label for="sportDate"> Publish Date: </label>
+      <input id="sportDate2" type="text">
+      <button type="submit" class="DeleteSport">
+        Send
+      </button>
+    </form>
+
+    <h3> Search a blog by id</h3>
+    <form class="SearchSport">
+      <label for="sportId"> ID of the Blog to change: </label>
+      <input id="sportId4" type="number">
+      <button type="submit" class="DeleteSport">
+        Send
+      </button>
+    </form>
+
+
+    <ul id="listOfSports">
+
+    </ul>
+
+    <script
+	  src="https://code.jquery.com/jquery-3.3.1.js"
+	  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	  crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
